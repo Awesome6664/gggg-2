@@ -3,7 +3,7 @@
     "id": "com.vela.ai.client",
     "restype": "quick_app",
     "name": "AI助手",
-    "description": "AI 助手 是一款运行在小米手环 9 Pro 上的 AI 对话客户端，基于 Xiaomi Vela 快应用框架开发。连接任意兼容 OpenAI 协议的 API，即可在手环上与云端 AI 进行多轮对话。",
+    "description": "# 简介\nAI 助手 是一款运行在**小米手环 9 Pro 、10Pro**上的 AI 对话客户端，基于 Xiaomi Vela 快应用框架开发。连接任意兼容 OpenAI 协议的 API，即可在手环上与云端 AI 进行多轮对话。\n#网桥\n> 所有无fetch的设备均可使用 \n适配**SimpleFetch - AstroBox 网络桥接插件**，如未自动切换网桥，在设置中手动打开开关即可\n***由于网桥支持流式请求，所以后续可能会适配***",
     "preview": [
       "media/this_is_shouye.png",
       "media/this_is_lishi.png",
@@ -23,34 +23,46 @@
     {
       "title": "米坛-详细介绍",
       "url": "https://www.bandbbs.cn/resources/7424/",
-      "icon": "AirplaneTilt"
+      "icon": "airplane-tilt"
     },
     {
       "title": "q群",
       "url": "https://qun.qq.com/universal-share/share?ac=1&authKey=oNVfkwbABuRfiivQb%2Bs9ntbP0ZgzGQuuu5xbKnH2LMGj8XxNZpBXdazXXIz6XuGL&busi_data=eyJncm91cENvZGUiOiI1MzM4MjcyODQiLCJ0b2tlbiI6Ik91b3FCbCtUTlp5ZEhPMDhoRTFUN3hEd2htOUpQRWlTR2Y2M1FUR2F2dHhkUVh0elYrYXNCT3BOTG9rTERFZ1YiLCJ1aW4iOiIzODc3NjIwMjUxIn0%3D&data=7DoshafXsrIJitEJhbVy7xqEzvfM8WLNVICXXF-36VBv2So40cS7KfWIGloF4FkA-6GXi9uP4o-5oYUVsq4EeA&svctype=4&tempid=h5_group_info",
-      "icon": "Quotes"
+      "icon": "quotes"
     }
   ],
   "downloads": {
     "xmb9p": {
-      "version": "0.6.0",
-      "file_name": "downloads/com.vela.ai.client.release.0.6.0.rpk",
-      "versionCode": 60,
+      "version": "0.7.0",
+      "file_name": "downloads/com.vela.ai.client.release.0.7.0..rpk",
+      "versionCode": 70,
       "updatelogs": [
         {
-          "version": "0.6.0",
-          "content": "大大更新了UI，顺便删除了旧UI，使安装包、安装后的体积大大的减少（大佐音"
-        },
+          "version": "0.7.0",
+          "content": "适配了网桥，适用于所有没有fetch的设备"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "0.7.0",
+      "file_name": "downloads/com.vela.ai.client.release.0.7.0..rpk",
+      "versionCode": 70,
+      "updatelogs": [
         {
-          "version": "0.6.0",
-          "content": "增加了消息发送失败时的重新发送按钮，并修复了显示两次报错的bug"
-        },
-        {
-          "version": "0.6.0",
-          "content": "好困啊，玩一会原神再睡吧😪"
+          "version": "0.7.0",
+          "content": "适配了网桥，适用于所有没有fetch的设备"
         }
       ]
     }
   },
-  "ext": {}
+  "ext": {
+    "bundledResources": {
+      "recommended": [
+        {
+          "type": "plugin",
+          "id": "SimpleFetch"
+        }
+      ]
+    }
+  }
 }
