@@ -54,38 +54,20 @@
         }
       ]
     },
-    "xmrw6": {
+    "xmrw5": {
       "version": "0.7.1",
-      "file_name": "downloads/com.vela.ai.client.release.0.7.1..rpk",
-      "versionCode": 71,
-      "updatelogs": [
-        {
-          "version": "0.7.1",
-          "content": "优化了rw5、6的输入体验"
-        }
-      ]
+      "file_name": "downloads/com.vela.ai.client.release.0.7.1.(2).rpk",
+      "versionCode": 71
     },
     "xmrw5xring": {
       "version": "0.7.1",
-      "file_name": "downloads/com.vela.ai.client.release.0.7.1..rpk",
-      "versionCode": 71,
-      "updatelogs": [
-        {
-          "version": "0.7.1",
-          "content": "优化了rw5、6的输入体验"
-        }
-      ]
+      "file_name": "downloads/com.vela.ai.client.release.0.7.1.(2).rpk",
+      "versionCode": 71
     },
-    "xmrw5": {
+    "xmrw6": {
       "version": "0.7.1",
-      "file_name": "downloads/com.vela.ai.client.release.0.7.1..rpk",
-      "versionCode": 71,
-      "updatelogs": [
-        {
-          "version": "0.7.1",
-          "content": "优化了rw5、6的输入体验"
-        }
-      ]
+      "file_name": "downloads/com.vela.ai.client.release.0.7.1.(2).rpk",
+      "versionCode": 71
     }
   },
   "ext": {
