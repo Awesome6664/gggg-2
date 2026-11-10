@@ -3,7 +3,7 @@
     "id": "com.vela.ai.client",
     "restype": "quick_app",
     "name": "AI助手",
-    "description": "# 简介\nAI 助手 是一款运行在**小米手环 9 Pro 、10Pro、rw5,6**上的 AI 对话客户端，基于 Xiaomi Vela 快应用框架开发。连接任意兼容 OpenAI 协议的 API，即可在手环上与云端 AI 进行多轮对话。\n#网桥\n> 所有无fetch的设备均可使用 \n适配**SimpleFetch - AstroBox 网络桥接插件**，如未自动切换网桥，在设置中手动打开开关即可\n***由于网桥支持流式请求，所以后续可能会适配***",
+    "description": "# 简介\nAI 助手 是一款运行在**小米手环 9 Pro 、10Pro、rw5,6**上的 AI 对话客户端，基于 Xiaomi Vela 快应用框架开发。连接任意兼容 OpenAI 协议的 API，即可在手环上与云端 AI 进行多轮对话。\n\n#网桥\n> 所有无fetch的设备均可使用 \n\n适配**SimpleFetch - AstroBox 网络桥接插件**，如未自动切换网桥，在设置中手动打开开关即可\n***由于网桥支持流式请求，所以后续可能会适配***",
     "preview": [
       "media/this_is_shouye.png",
       "media/this_is_lishi.png",
